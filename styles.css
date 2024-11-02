@@ -25,7 +25,7 @@ body {
 /* Header styling */
 header {
   background: linear-gradient(rgba(26, 25, 25, 0.5), rgba(0, 0, 0, 0.5)),
-    url(https://plus.unsplash.com/premium_photo-1661476504180-2480927f0959?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+    url(https://images.pexels.com/photos/27848723/pexels-photo-27848723/free-photo-of-children-playing-in-a-garbage-dump-in-africa.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
       no-repeat center/cover;
   height: 60vh;
   display: flex;
@@ -155,7 +155,21 @@ footer {
   padding: 20px;
   background-color: #f0f0f0;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s, box-shadow 0.3s;
+}
+
+.case-studies article:hover{
+  transform: scale(1.03);
+  box-shadow: 0 3px 16px rgba(0, 0, 0, 0.2);
+}
+
+.case-study-image {
+  width: 95%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .case-studies h3 {
