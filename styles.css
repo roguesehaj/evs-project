@@ -18,7 +18,7 @@
 .photu{
   width: 40%;
   height: auto;
-  border-radius: 20px;
+  border-radius: 20px;  
   margin-bottom: 10px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
@@ -271,6 +271,12 @@ iframe:hover{
   border-left: 5px solid #2a9d8f;
   border-radius: 8px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
+}
+
+.solutions article:hover{
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .solutions h3 {
