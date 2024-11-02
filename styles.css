@@ -1,0 +1,122 @@
+/* Reset some default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1580642939385-001ce386478a")
+      no-repeat center/cover;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.header-content {
+  text-align: center;
+  max-width: 800px;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+.cta-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #2a9d8f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #21867a;
+}
+
+/* Navigation styling */
+nav {
+  background-color: #264653;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  color: #e9c46a;
+}
+
+/* Section styling */
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #264653;
+}
+
+/* Goals Section */
+.goals {
+  background-color: #f4a261;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.goal-card {
+  width: 200px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.goal-card h3 {
+  font-size: 1.5rem;
+  color: #264653;
+  margin-bottom: 10px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #264653;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9rem;
+}
