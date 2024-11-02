@@ -16,13 +16,22 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans';
   color: #333;
   line-height: 1.6;
   background-color: #f4f4f4;
 }
 
-/* Header styling */
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
 header {
   background: linear-gradient(rgba(26, 25, 25, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://images.pexels.com/photos/27848723/pexels-photo-27848723/free-photo-of-children-playing-in-a-garbage-dump-in-africa.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
@@ -41,6 +50,8 @@ header {
 }
 
 header h1 {
+  font-family: 'Work Sans', serif;
+  font-weight: 700px;
   font-size: 3rem;
   margin-bottom: 10px;
 }
@@ -51,6 +62,7 @@ header p {
 }
 
 .cta-button {
+  font-family: 'Montserrat';
   padding: 10px 20px;
   background-color: #2a9d8f;
   color: #fff;
@@ -68,7 +80,7 @@ header p {
 }
 
 .cta-button:hover {
-  background-color: #21867a;
+  background-color: #1a6a60;
 }
 
 /* Navigation styling */
@@ -80,6 +92,7 @@ nav {
 }
 
 nav a {
+  font-family: 'Montserrat';
   color: #fff;
   margin: 0 15px;
   text-decoration: none;
@@ -329,7 +342,7 @@ figcaption {
 
 /* Contact Form Styling */
 .contact-form .form-group {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .contact-form label {
@@ -363,6 +376,7 @@ figcaption {
 }
 
 .contact-form button {
+  font-family: 'Open Sans';
   display: inline-block;
   width: 100%;
   padding: 12px 20px;
