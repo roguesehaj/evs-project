@@ -15,6 +15,19 @@
   line-height: 1.8;
 }
 
+.photu{
+  width: 40%;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+figure{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
 body {
   font-family: 'Open Sans';
   color: #333;
@@ -293,7 +306,7 @@ iframe:hover{
 figcaption {
   font-size: 0.9rem;
   color: #777;
-  margin-top: 5px;
+  margin-top: 1px;
 }
 
 
